@@ -1,0 +1,304 @@
+﻿@charset "utf-8";
+
+/*
+	Styles CSS
+    Authors: Caleb Belcourt and Shohei Maeda
+    Date:   Nov 6, 2017
+
+
+*/
+
+/* HTML Styles */
+
+html {
+    color: rgb(51, 51, 51);
+    font-size: 12px;
+    background: linear-gradient(180deg, rgb(49,153,152), white, rgb(50, 204, 204));
+}
+
+@font-face {
+    font-family: CaffeBistro;
+    src: url(caffbistroscript-webfont.woff);
+}
+
+
+/* Body Styles */
+
+body {
+    background-color: rgb(225,225,225);
+    background-color: hsl(0, 0%, 88%);
+    font-family: Verdana, Geneva, Arial, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 250px;
+    max-width: 950px;
+    border-left: 1px solid rgb(51, 51, 51);
+    border-right: 1px solid rgb(51, 51, 51);
+    box-shadow: rgb(51, 51, 51) 15px 0px 25px, rgb(51, 51, 51) -15px 0px 25px;
+}
+
+@media only screen and (max-width: 1500px) {
+    body {
+        overflow-x: hidden;
+    }
+}
+
+
+/* Body Header Styles */
+
+	body > header > img {
+		display: block;
+		width: 100%;
+	}
+
+
+	nav#topLinks ul li {
+		background-color: rgb(67, 128, 96);
+		display: block;
+		float: left;
+		text-align: center;
+		width: 20%;
+		font-family: Arial;
+		font-size: 1.3em;
+	}
+
+    nav#topLinks ul li a {
+        color: white;
+        display: block;
+        height: 3.5em;
+        text-align: center;
+        line-height: 3.5em;
+        letter-spacing: 0.1em;
+    }
+
+
+nav#topLinks a:hover, nav#topLinks a:active {
+    background-color: rgb(40, 40, 40);
+}
+
+/* List Styles*/
+
+.sound > li {
+    display: inline-block;
+}
+
+.sound {
+    margin: 0;
+    padding: 0;
+}
+
+.sound::after {
+	display: clear;
+}
+
+
+.foot ul li:first-of-type {
+    position: relative;
+    top: 20px;
+}
+
+.foot ul li:nth-of-type(2) {
+    position: relative;
+    bottom: 50px;
+    left: 100px;
+}
+
+.foot ul li:last-of-type {
+    position: relative;
+    bottom: 125px;
+    left: 200px;
+}
+
+.foot img:hover {
+    -ms-transform: rotate(8deg);
+    -webkit-transform: rotate(8deg);
+    transform: rotate(8deg);
+}
+
+.links ul li {
+    position: relative;
+    left: 3em;
+}
+
+section ul li {
+    text-indent: 10px;
+}
+
+section dt {
+    padding: 10px 0 10px 0;
+}
+
+section dd {
+    padding: 10px 0 10px 0;
+    position: relative;
+    left: 30px;
+}
+
+
+
+/* Article  Styles */
+
+	article {
+		clear: both;
+		padding: 30px 20px 10px 20px;
+		box-shadow: inset rgb(71, 71, 71) -10px -10px 25px, inset rgb(71, 71, 71) 10px 10px 25px;
+	}
+
+
+    article h2 {
+        width: 60%;
+        font-size: 1.3em;
+        font-weight: bold;
+        font-style: italic;
+        text-align: left;
+        text-decoration: none;
+        padding: 10px 0 10px 0;
+    }
+
+    article h1 {
+		margin-top: 20px;
+        color: rgb(49,153,152);
+        font-size: 5em;
+        font-weight: bold;
+        font-family: CaffeBistro;
+        text-align: center;
+        text-decoration: none;
+        letter-spacing: 0.1em;
+        word-spacing: 0.1em;
+        text-transform: capitalize;
+        font-variant: small-caps;
+        text-shadow: 2px 2px 2px rgb(50, 204, 204);
+    }
+
+    article li {
+        margin: 1em 0;
+    }
+
+    article img + p {
+        text-transform: capitalize;
+        font-variant: small-caps;
+        background-size: 10px 10px;
+        background-origin: margin-box;
+        background-clip: margin-box;
+    }
+
+    article h1 + p {
+        padding: 20px 0 20px 0;
+        font-size: 1.2em;
+    }
+
+    article > p:first-letter {
+        color: rgb(49,153,152);
+        float: left;
+        font-family: CaffeBistro;
+        font-size: 75px;
+        line-height: 60px;
+        padding: 0 8px 0px 3px;
+        text-shadow: 2px 2px 2px rgb(50, 204, 204);
+    }
+
+    article img {
+        opacity: 0.5;
+        border: 5px solid black;
+        border-radius: 30px;
+        background-size: 80px 60px;
+        background-origin: content-box;
+        background-clip: content-box;
+    }
+
+        article img#musicPicture {
+            height: 50%;
+            width: 50%;
+            float: clear left;
+        }
+
+    article div.container {
+        padding: 5% 0 5% 0;
+        height: 50%;
+        width: 40%;
+        float: right;
+    }
+
+    article::after {
+        clear: both;
+        content: "";
+        display: table;
+    }
+
+    article span {
+        font-weight: bold;
+    }
+
+
+
+/* Figure Styles */
+
+figure {
+    display: inline-block;
+}
+
+
+figure figcaption {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px 0 20px 0;
+}
+
+figure.video {
+    display: inline-block;
+}
+
+iframe {
+    border: none;
+}
+
+figure figcaption a, figure figcaption {
+    color: rgb(49,153,152);
+    text-decoration: none;
+}
+
+figure figcaption a:hover, figure figcaption a:active {
+        color: rgb(51, 51, 45);
+}
+
+figure.sound {
+    float: clear right;
+    display: block;
+    padding: 10px, 10px, 10px, 10px;
+}
+
+
+/* Footer Styles */
+
+footer {
+    display: block;
+    padding: 25px;
+    background: linear-gradient(345deg, rgb(51, 153, 49), rgb(49, 153, 99) 80%);
+}
+
+
+body > footer > nav.foot > ul {
+    line-height: 2em;
+}
+
+
+footer::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+footer p, footer blockquote {
+    font-size: 1.2em;
+    color: white;
+    padding-top: 10px;
+}
+
+footer p + a {
+    position: relative;
+    bottom: 10px;
+    left: 95%;
+}

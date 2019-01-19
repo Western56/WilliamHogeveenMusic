@@ -1,0 +1,13 @@
+
+@font-face {
+    font-family: 'caffbistroscriptmedium';
+    src: url('caffbistroscript-webfont.eot');
+    src: url('caffbistroscript-webfont.eot?#iefix') format('embedded-opentype'),
+         url('caffbistroscript-webfont.woff2') format('woff2'),
+         url('caffbistroscript-webfont.woff') format('woff'),
+         url('caffbistroscript-webfont.ttf') format('truetype'),
+         url('caffbistroscript-webfont.svg#caffbistroscriptmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

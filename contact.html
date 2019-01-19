@@ -1,0 +1,114 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <!--
+
+       William Hogeveen Music
+       Contact.html
+
+       Authors: Caleb Belcourt and Shohei Maeda
+       Date: Nov 6, 2017
+
+       -->
+
+    <meta charset="utf-8" />
+    <title>William Hogeveen</title>
+    <link href="william_reset.css" rel="stylesheet" />
+    <link href="william_styles.css" rel="stylesheet" />
+    <link href="william_forms.css" rel="stylesheet" />
+    <script src="form.js" defer></script>
+
+
+</head>
+
+<body onload="InitiateForm()">
+    <header>
+        <img src="william_5.jpg" id="MainPic" alt="William Hogeveen" />
+        <nav id="topLinks">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="music.html">Music</a></li>
+                <li><a href="videos.html">Videos</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+                <li><a href="reference.html">Cross-Reference</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <article>
+        <h1>Contact Me</h1>
+        <p>
+            Please leave your contact information and any request you may have and we will try to respond
+            as quickly as possible.
+        </p>
+        <br>
+        <br>
+        <form name="fanInfo" id="fan" onsubmit="return ValidateForm();">
+            <fieldset id="contact">
+                <legend>Contact Information</legend>
+
+                <div class="formInfo">
+                    <label for="fanname">Name(Required)</label>
+                    <input name="fanName" id="fanname" type="text" required />
+                </div>
+
+                <div class="formInfo">
+                    <label for="fanemail">E-mail(Required)</label>
+                    <input name="fanEmail" id="fanemail" type="email" required />
+                </div>
+
+                <div class="formInfo">
+                    <label for="fanphone">Phone Number</label>
+                    <input name="fanPhone" id="fanphone" type="tel" placeholder="(nnn) nnn-nnnn"
+                           pattern="^\d{10}$|^(\(\d{3}\)\s*)?\d{3}[\s-]?\d{4}$" />
+                </div>
+
+                <div class="formInfo">
+                    <label for="faninfo">Where did you hear about me?</label>
+                    <select name="fanInfo" id="faninfo" size="6" multiple>
+                        <option value="facebook">Facebook</option>
+                        <option value="youtube">Youtube</option>
+                        <option value="bandcamp">Bandcamp</option>
+                        <option value="friends">Friends</option>
+                        <option value="concert">Concert</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+
+                <div class="formInfo">
+                    <label for="perform">How likely will you watch me perform?</label>
+                    <input list="perform" name="performance" />
+                    <datalist id="perform">
+                        <option value="Very Likely">
+                        <option value="Likely">
+                        <option value="Not Sure">
+                        <option value="Not Likely">
+                        <option value="Very Unlikely">
+                    </datalist>
+                </div>
+
+                <label for="request">Ask a question or request a cover of a song.</label>
+                <textarea name="custReq" id="request"></textarea>
+            </fieldset>
+            <div id="but">
+                <input type="submit" value="Submit" />
+                <input type="reset" value="Reset" />
+            </div>
+        </form>
+    </article>
+
+    <footer>
+        <nav class="foot">
+            <ul>
+                <li><a href="https://www.facebook.com/William-Hogeveen-Music-132638387289425" target="_blank"><img src="facebook.png" alt="facebook"></a></li>
+                <li><a href="https://www.youtube.com/channel/UCfLj9VUexQvnsl1ZiiCO5AQ?" target="_blank"><img src="youtube.png" alt="youtube"></a></li>
+                <li><a href="https://williamhogeveen.bandcamp.com/" target="_blank"><img src="bandcamp.png" alt="bandcamp"></a></li>
+            </ul>
+        </nav>
+        <blockquote><p>William Hogeveen Music &#169;</p></blockquote>
+        <p>Last updated by Shohei Maeda and Caleb Belcourt on Nov-27-2017</p>
+        <a href="contact.html" target="_self"><img src="up.png" id="top" alt="Return to Top"></a>
+    </footer>
+
+</body>
+</html>

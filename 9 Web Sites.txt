@@ -1,0 +1,43 @@
+
+Web Sites - Similar Sites
+------------------------------
+
+I dislike the lack of colour and style of this website. It seems very plain but it has
+decent responsive layout with different screen sizes.
+https://jeremykneeshaw.com/
+
+I dislike the lack of colour and the link colours of this website. The contact us button is very
+well done though and has slick media styles for music.
+https://williamhogeveen.bandcamp.com/music
+
+This website looks amazing from the background to the slick layout of the contact us form and 
+social media share buttons. I also like the layout of the music media and the responsive design
+when you shrink the screen size.
+http://www.karlsanden.com/
+
+
+Web Sites - Downloadable Sites
+------------------------------
+
+This website has free vector icons.
+https://www.iconfinder.com/social-media-icons
+
+This website has free font styles.
+https://befonts.com/tag/woff
+
+This website has free vector icons.
+https://icons8.com/icon/new-icons/all
+
+
+Web Sites - Technical Information
+---------------------------------
+
+This website provides html, javascript, and css information with many different styles, methods and tutorials.
+https://www.w3schools.com/
+
+This website gives basic tutorials for javascript, html, and css.
+https://www.codecademy.com/skills/make-an-interactive-website
+
+This Usenet newsgroup provides some html style code and css equivalents.
+https://fanlore.org/wiki/Help:HTML
+
