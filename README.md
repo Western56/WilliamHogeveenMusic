@@ -1,2 +1,2 @@
 # WilliamHogeveenMusic
-Website for Kamloops musician William Hogeveen for my Web Design Project (with Shohei)
+Website for Kamloops musician William Hogeveen, done for Web Design project with Caleb.
